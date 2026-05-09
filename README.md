@@ -267,7 +267,7 @@ Open Settings, search for `claude-code.environmentVariables`, choose **Edit in s
 ```json
 "claudeCode.environmentVariables": [
   { "name": "ANTHROPIC_BASE_URL", "value": "http://localhost:8082" },
-  { "name": "ANTHROPIC_AUTH_TOKEN", "value": "freecc" },
+  { "name": "ANTHROPIC_AUTH_TOKEN", "value":  },
   { "name": "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY", "value": "1" }
 ]
 ```
@@ -286,7 +286,7 @@ Set the environment for `acp.registry.claude-acp`:
 ```json
 "env": {
   "ANTHROPIC_BASE_URL": "http://localhost:8082",
-  "ANTHROPIC_AUTH_TOKEN": "freecc",
+  "ANTHROPIC_AUTH_TOKEN": "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",
   "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY": "1"
 }
 ```
